@@ -21,18 +21,18 @@ this context.
    that is why the norm is not perserved. For multiplication, there are $2^n$
    possible inverses because each element might be zero or non-zero having an
    identity of 0 or 1.
-3.Class QHbits: Multiple QHStates. This class will deal with how to form
-products of multiple quaternion series. The idea is based off the fact that
-|a><b| for quaternion series is a tensor product, having the size
-dim(a)*dim(b). So I can imagine 
+3. Class QHbits: Multiple QHStates. This class will deal with how to form
+   products of multiple quaternion series. The idea is based off the fact that
+   |a><b| for quaternion series is a tensor product, having the size
+   dim(a)*dim(b). So I can imagine 
 
     <a|Op_a|a><b|Op_b|b>...
 
-yeilding a quaternion of the form: (p, 0, 0, 0). Everyone points out the **p**
-as the odds of an observer seeing an event. I like to point out the three zeros
-that show the spatial location is precisely where the observer has to be.
+    yeilding a quaternion of the form: (p, 0, 0, 0). Everyone points out the **p**
+    as the odds of an observer seeing an event. I like to point out the three zeros
+   that show the spatial location is precisely where the observer has to be.
 
-[Scott Aaronson in blog Why are amplitudes complex?)[https://www.scottaaronson.com/blog/?p=4021]
+[Scott Aaronson in blog Why are amplitudes complex?](https://www.scottaaronson.com/blog/?p=4021)
 writes:
 
     Namely: quantum mechanics over the quaternions is a flaming garbage fire, 
