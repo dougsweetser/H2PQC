@@ -13,6 +13,12 @@
 
 # ## *CHSH inequality*
 
+# The entangled wave function used:
+# 
+# $$\lvert\psi_s\rangle =
+#   \frac{1}{\sqrt{2}}(\lvert0\rangle_A\otimes\lvert1\rangle_B - \lvert1\rangle_A\otimes\lvert0\rangle_B) =
+#   \frac{1}{\sqrt{2}}(\lvert01\rangle - \lvert10\rangle),$$
+# 
 # In the framework of classical physics, it is impossible to create a correlation inherent in the singlet state $\lvert\psi_s\rangle$.
 # Indeed, let us measure the observables $X$, $Z$ for qubit *A* and observables $W = \frac{1}{\sqrt{2}} (X + Z)$, $V = \frac{1}{\sqrt{2}} (-X + Z)$ for qubit *B*.
 # Performing joint measurements of these observables, the following expectation values can be obtained:
